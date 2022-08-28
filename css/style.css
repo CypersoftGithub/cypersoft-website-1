@@ -234,7 +234,7 @@ h6,
     height: 10px;
     top: 2px;
     left: 0;
-    background: rgba(33, 66, 177, .5);
+    background: rgba(2, 104, 177, 47%);
 }
 
 .section-title h6::after {
@@ -254,7 +254,7 @@ h6,
 }
 
 .service-item:hover {
-    background: var(--primary);
+    background: #1459b5;
 }
 
 .service-item .service-icon {
@@ -372,7 +372,7 @@ h6,
 }
 
 .team-item:hover::after {
-    background: var(--primary);
+    background: #1459b5;
 }
 
 .team-item h5,
@@ -518,4 +518,8 @@ h6,
     margin-right: 0;
     padding-right: 0;
     border-right: none;
+}
+
+.pb6{
+    padding-bottom: 140px !important;
 }
